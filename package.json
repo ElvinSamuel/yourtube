@@ -1,0 +1,44 @@
+{
+  "name": "yourtube",
+  "version": "1.0.0",
+  "description": "YourTube Tutorial: A YouTube Clone. Originally Created By Prosper Otemuyiwa, Written Again By Elvin M. Samuel",
+  "main": "server.js",
+  "engines": {
+    "node": "0.12.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElvinSamuel/yourtube.git"
+  },
+  "keywords": [
+    "YourTube",
+    "Tutorial",
+    "Elvin"
+  ],
+  "author": "Elvin M. Samuel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ElvinSamuel/yourtube/issues"
+  },
+  "homepage": "https://github.com/ElvinSamuel/yourtube",
+  "dependencies": {
+    "async": "^1.2.1",
+    "bcrypt": "^0.8.3",
+    "body-parser": "^1.12.4",
+    "bower": "^1.8.2",
+    "cloudinary": "^1.2.1",
+    "cors": "^2.7.1",
+    "dotenv": "^1.1.0",
+    "express": "^4.12.4",
+    "gravatar": "^1.1.1",
+    "jwt-simple": "^0.5.0",
+    "lodash": "^3.10.0",
+    "moment": "^2.13.0",
+    "mongoose": "^4.0.5",
+    "morgan": "^1.5.3"
+  }
+}
